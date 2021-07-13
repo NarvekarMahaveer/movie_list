@@ -1,4 +1,4 @@
-# movie_list
+# Movie Directory
 movies list
 
 Website flow images are kept in Images folder.
