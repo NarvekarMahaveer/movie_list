@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('top.php');
 
 if(isset($_GET['type']) && $_GET['type']!=='' && isset($_GET['id']) && $_GET['id']>0){
@@ -28,7 +28,7 @@ $res=mysqli_query($con,$sql);
               <h1 class="grid_title">Banner Master</h1>
 			  <a href="manage_banner.php" class="add_link">Add Banner</a>
               <div class="row grid_box">
-				
+
                 <div class="col-12">
                   <div class="table-responsive">
                     <table id="order-listing" class="table">
@@ -63,14 +63,14 @@ $res=mysqli_query($con,$sql);
 								<a href="?id=<?php echo $row['id']?>&type=active"><label class="badge badge-info hand_cursor">Deactive</label></a>
 								<?php
 								}
-								
+
 								?>
 								&nbsp;
 								<a href="?id=<?php echo $row['id']?>&type=delete"><label class="badge badge-danger delete_red hand_cursor">Delete</label></a>
 							</td>
-                           
+
                         </tr>
-                        <?php 
+                        <?php
 						$i++;
 						} } else { ?>
 						<tr>
@@ -84,5 +84,5 @@ $res=mysqli_query($con,$sql);
               </div>
             </div>
           </div>
-        
+
 <?php include('footer.php');?>

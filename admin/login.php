@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 		$row=mysqli_fetch_assoc($res);
 		$_SESSION['IS_LOGIN']='yes';
 		$_SESSION['ADMIN_USER']=$row['name'];
-		redirect('index.php');
+		redirect('movie.php');
 	}else{
 		$msg="Please enter valid login details";
 	}

@@ -18,20 +18,14 @@ if($cur_path=='' || $cur_path=='index.php'){
 	$page_title='Manage Category';
 }elseif($cur_path=='user.php' || $cur_path=='manage_user.php'){
 	$page_title='Manage User';
-}elseif($cur_path=='delivery_boy.php' || $cur_path=='manage_delivery_boy.php'){
-	$page_title='Manage Delivery Boy';
-}elseif($cur_path=='coupon_code.php' || $cur_path=='manage_coupon_code.php'){
-	$page_title='Manage Coupon Code';
-}elseif($cur_path=='dish.php' || $cur_path=='manage_dish.php'){
-	$page_title='Manage Dish';
+}elseif($cur_path=='movie.php' || $cur_path=='manage_movie.php'){
+	$page_title='Manage movie';
 }elseif($cur_path=='banner.php' || $cur_path=='manage_banner.php'){
 	$page_title='Manage Banner';
 }elseif($cur_path=='contact_us.php'){
 	$page_title='Contact Us';
 }elseif($cur_path=='order.php'){
 	$page_title='Order Master';
-}elseif($cur_path=='setting.php'){
-	$page_title='Setting';
 }
 
 
@@ -68,8 +62,8 @@ if($cur_path=='' || $cur_path=='index.php'){
           
         </ul>
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="index.php"><img src="assets/images/logo.png" alt="logo"/></a>
-          <a class="navbar-brand brand-logo-mini" href="index.php"><img src="assets/images/logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo" href="movie.php"><img src="assets/images/logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo-mini" href="movie.php"><img src="assets/images/logo.png" alt="logo"/></a>
         </div>
         <ul class="navbar-nav navbar-nav-right">
           
@@ -102,18 +96,6 @@ if($cur_path=='' || $cur_path=='index.php'){
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">
-              <i class="mdi mdi-view-quilt menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="order.php">
-              <i class="mdi mdi-basket menu-icon"></i>
-              <span class="menu-title">Order</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="category.php">
               <i class="mdi mdi-book-open menu-icon"></i>
               <span class="menu-title">Category</span>
@@ -125,23 +107,11 @@ if($cur_path=='' || $cur_path=='index.php'){
               <span class="menu-title">Users</span>
             </a>
           </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="delivery_boy.php">
-              <i class="mdi mdi-motorbike menu-icon"></i>
-              <span class="menu-title">Delivery Boy</span>
-            </a>
-          </li>
-		   <li class="nav-item">
-            <a class="nav-link" href="coupon_code.php">
-              <i class="mdi mdi-key-plus menu-icon"></i>
-              <span class="menu-title">Coupon Code</span>
-            </a>
-          </li>
 		  
 		  <li class="nav-item">
-            <a class="nav-link" href="dish.php">
+            <a class="nav-link" href="movie.php">
               <i class="mdi mdi-food-fork-drink menu-icon"></i>
-              <span class="menu-title">Dish</span>
+              <span class="menu-title">Movie</span>
             </a>
           </li>
 		  
@@ -156,12 +126,6 @@ if($cur_path=='' || $cur_path=='index.php'){
             <a class="nav-link" href="contact_us.php">
               <i class="mdi mdi-contact-mail menu-icon"></i>
               <span class="menu-title">Contact Us</span>
-            </a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="setting.php">
-              <i class="mdi mdi-power-settings menu-icon"></i>
-              <span class="menu-title">Setting</span>
             </a>
           </li>
 		   <li class="nav-item">

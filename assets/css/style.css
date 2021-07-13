@@ -4066,10 +4066,10 @@ h4.grand-totall-title span {
     cursor: pointer;
 }
 .button-box button {
-    background-color: #f2f2f2;
+    background-color: #e02c2b;
     border: medium none;
     border-radius: 3px;
-    color: #242424;
+    color: #f8f9fa;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;

@@ -22,8 +22,8 @@ include ("header.php");
                             </div>
                             <div class="contact-info-content">
                                 <h4>Our Location</h4>
-                                <p>Cremeux Bakeries Pvt Ltd</p>
-								<p>CMM Building, 2nd Floor, Merces, Goa</p>
+                                <p>Inox</p>
+								<p>Panjim, Goa</p>
                                                             </div>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ include ("header.php");
                             </div>
                             <div class="contact-info-content">
                                 <h4>Write Some Words</h4>
-                                <p><a href="#">sales@@cremeux.in </a></p>
-                                <p><a href="#">info@cremeux.in</a></p>
+                                <p><a href="#">sales@inox.in </a></p>
+                                <p><a href="#">info@inox.in</a></p>
                             </div>
                         </div>
                     </div>
