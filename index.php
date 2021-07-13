@@ -1,4 +1,5 @@
 <?php
+//imports
 include('database.inc.php');
 include('function.inc.php');
 include('constant.inc.php');
